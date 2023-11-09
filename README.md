@@ -31,7 +31,7 @@ Changes as compared to Architecture-1:
 Hyperparameter Modification: The second model incorporates changes in the hyperparameters. It includes early stopping and model checkpointing callbacks, which help in optimizing the training process by monitoring the validation loss and saving the best model.
 
 ### Model Architecture - 3: CNN
-The below model is a convolutional neural network (CNN) designed for image classification. It consists of multiple convolutional layers with ReLU activation, max pooling layers, and dropout layers for regularization. The final architecture includes three sets of convolutional layers, followed by max pooling and dropout, and ends with a fully connected layer and an output layer with softmax activation. The model is capable of processing grayscale images of size 32x32x1 and has a total of 43 output units, representing the number of classes in the classification task. The summary provides a concise overview of the model's structure and the number of parameters in each layer.
+Convolutional neural network (CNN) designed for image classification: It consists of multiple convolutional layers with ReLU activation, max pooling layers, and dropout layers for regularization. The final architecture includes three sets of convolutional layers, followed by max pooling and dropout, and ends with a fully connected layer and an output layer with softmax activation. The model is capable of processing grayscale images of size 32x32x1 and has a total of 43 output units, representing the number of classes in the classification task. The summary provides a concise overview of the model's structure and the number of parameters in each layer.
 
 ## Accuracy of different models are:
 AlexNet: 88.84%
